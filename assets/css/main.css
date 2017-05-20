@@ -12,7 +12,7 @@ body {
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #000;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -110,7 +110,7 @@ email {
    ========================================================================== */
 
 #menuwrap a {
-   color: #fff;
+   color: #000;
    word-wrap: break-word;
 
    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -170,7 +170,7 @@ email {
 /* Footer Wrap */
 
 #f {
-	background: #441308;
+	background: #fff;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
@@ -192,14 +192,14 @@ email {
 
 #f i {
 	font-size: 8px;
-	color: #fff;
-    padding: 3px;
+	color: #7D26CD;
+  padding: 3px;
 }
 
 #f i:hover {
 	font-size: 8px;
 	color: #7D26CD;
-    padding: 3px;
+  padding: 3px;
 }
 
 #f i2:hover {
@@ -210,7 +210,7 @@ email {
 
 #f i2 {
 	font-size: 40px;
-	color: #fff;
+	color: #7D26CD;
     padding: 15px;
 }
 
@@ -228,7 +228,7 @@ email {
 
 #f p {
 	font-size: 20px;
-	color: #f2f2f2;
+	color: #000;
 }
 
 #f img {
@@ -380,7 +380,7 @@ email {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #441308;
+	background: #ff93e7;
 	width: 200px;
 	height: 100%;
 }
@@ -392,7 +392,7 @@ email {
 	letter-spacing: 0.15em;
 	line-height: 40px;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #000;
 	margin-top: 20px;
 }
 
@@ -407,7 +407,7 @@ email {
 
 .menu a {
 	margin-left: 20px;
-	color: #ffffff;
+	color: #000;
 	display: block;
 	font-size: 12px;
 	font-weight: 700;
@@ -417,11 +417,11 @@ email {
 }
 
 .menu a:hover {
-	color: #ffffff;
+	color: #000;
 }
 
 .menu a:active {
-	color: #ffffff;
+	color: #000;
 }
 
 .menu a > i {
@@ -454,7 +454,7 @@ email {
 }
 
 .menu-close:hover {
-	color: #ffffff;
+	color: #000;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
 		-ms-transition: all .1s ease-in-out;
@@ -494,7 +494,7 @@ email {
 	display: block;
 	text-align: center;
 	font-size: 14px;
-	color: #ffffff;
+	color: #000;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -508,7 +508,7 @@ email {
 }
 
 #menuToggle:hover {
-	color: #ffffff;
+	color: #000;
 	background: rgba(0,0,0,0.2);
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
@@ -722,7 +722,7 @@ email {
 }
 
 .fa-inverse {
-    color: #fff
+    color: #000
 }
 
 .fa-glass:before {
