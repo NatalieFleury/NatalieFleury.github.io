@@ -254,7 +254,7 @@ email {
 /* three display views: 3 columns, 2 columns, 1 column */
 @media (min-width: 720px) {
     .item {
-        width: 28.33%;
+        width: 42%;
         margin: 2.5%;
     }
 }
