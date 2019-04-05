@@ -247,15 +247,17 @@ email {
 }
 
 #f img {
-	text-align: center;
+    text-align: center;
+    width: 250px;
+    height: auto;
 }
 
 .item {
     float: left;
     position: relative;
-    text-align: center;
+    text-align: left;
     cursor: default;
-    border-radius: 3px;
+    border-radius: 2px;
     border: 0px solid black;
 }
 
