@@ -7,6 +7,7 @@
  * URL: http://blacktie.co
  */
 
+ /* Text for Projects on click */
 body {
   background-color: #f2f2f2;
     font-family: 'EB Garamond', serif;
@@ -18,11 +19,11 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-/* Titles */
-h1, h2, h3, h4, h5, h6 {
+/* Text under titles (About me, Experience, ...) */
+h1, h2, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    color: #000;
+    color: #fff;
 }
 
 
@@ -37,7 +38,7 @@ p {
 }
 
 /* Links */
-
+/* IDK */
 a.class2 {
     color: #7D26CD;
     word-wrap: break-word;
@@ -49,9 +50,10 @@ a.class2 {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+/* Idk */
 a.class2:hover,
 a.class2:focus {
-    color: #7D26CD;
+    color: #C4C4C4;
     text-decoration: none;
     outline: 0;
 }
@@ -65,8 +67,9 @@ a.class2:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+/* Colour of github in footer of on click experiences */
 a {
-    color: #0000FF;
+    color: #c4c4c4;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -76,9 +79,10 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+/* Colour on hover over 'github' on click experiences */
 a:hover,
 a:focus {
-    color: #7D26CD;
+    color: #000;
     text-decoration: none;
     outline: 0;
 }
@@ -92,17 +96,19 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+/* Horizontal line under the titles */
  hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #cb98d1;
     margin: 1em 0;
     padding: 0;
   }
 
+/* email */
 email {
-  color: #7D26CD;
+  color: #cb98d1;
 }
 
 /* ==========================================================================
@@ -120,8 +126,9 @@ email {
    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+/* Idk */
 #menuwrap a:hover {
-  color: #7D26CD;
+  color: #cb98d1;
 }
 
 #headerwrap {
@@ -145,9 +152,10 @@ email {
     background-size: cover;
 }
 
+/* Title (I'm Natalie.) */
 #headerwrap h1 {
 	margin-top: 150px;
-	color: white;
+	color: #fff;
 	font-size: 70px;
 	font-weight: 700;
 }
@@ -170,21 +178,23 @@ email {
 /* Footer Wrap */
 
 #f {
-	background: #fff;
+	background: #000;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
 }
 
-#f h3 {
-	color: #7D26CD;
+/* Titles (About, Experience, ... */
+#f h2 {
+	color: #fff;
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 
-#f h2 {
-	color: black;
+/* Idk */
+#f h3 {
+	color: #000;
 	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -192,55 +202,62 @@ email {
 
 #f i {
 	font-size: 8px;
-	color: #7D26CD;
+	color: #000;
   padding: 3px;
 }
 
 #f i:hover {
 	font-size: 8px;
-	color: #7D26CD;
+	color: #000;
   padding: 3px;
 }
 
+/* Hover colour for contact icons at bottom */
 #f i2:hover {
 	font-size: 40px;
-	color: #7D26CD;
+	color: #cb98d1;
     padding: 15px;
 }
 
+/* Contact icons at bottom */
 #f i2 {
 	font-size: 40px;
-	color: #7D26CD;
+	color: #fff;
     padding: 15px;
 }
 
+/* Contact icons at top */
 #headerwrap i2 {
 	font-size: 30px;
 	color: #fff;
     padding: 10px;
 }
 
+/* Hover colour for contact icons at top */
 #headerwrap i2:hover {
 	font-size: 30px;
-	color: #7D26CD;
+	color: #cb98d1;
     padding: 10px;
 }
 
+/* Text on hover over projects */
 #f p {
 	font-size: 20px;
-	color: #000;
+	color: #fff;
 }
 
 #f img {
-	text-align: center;
+    text-align: center;
+    width: 250px;
+    height: auto;
 }
 
 .item {
     float: left;
     position: relative;
-    text-align: center;
+    text-align: left;
     cursor: default;
-    border-radius: 3px;
+    border-radius: 2px;
     border: 0px solid black;
 }
 
@@ -385,6 +402,7 @@ email {
 	height: 100%;
 }
 
+/* Idk */
 .menu h1.logo a {
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
@@ -405,6 +423,7 @@ email {
 	max-width: 160px;
 }
 
+/* Idk */
 .menu a {
 	margin-left: 20px;
 	color: #000;
@@ -416,10 +435,12 @@ email {
 	text-transform: uppercase;
 }
 
+/* Idk */
 .menu a:hover {
 	color: #000;
 }
 
+/* Idk */
 .menu a:active {
 	color: #000;
 }
@@ -453,6 +474,7 @@ email {
 			transition: all .1s ease-in-out;
 }
 
+/* Idk */
 .menu-close:hover {
 	color: #000;
 	-webkit-transition: all .1s ease-in-out;
@@ -507,6 +529,7 @@ email {
 			transition: all .1s ease-in-out;
 }
 
+/* Idk */
 #menuToggle:hover {
 	color: #000;
 	background: rgba(0,0,0,0.2);
@@ -721,6 +744,7 @@ email {
     font-size: 2em
 }
 
+/* Idk */
 .fa-inverse {
     color: #000
 }
